@@ -12,3 +12,12 @@ stages:
           vmImage: ubuntu-latest
         steps:
           - bash: echo 'Job B'
+
+  - stage: 
+    displayName: Deploy
+    jobs:
+      - job: C
+        pool:
+         name: pool1
+        steps:
+          - bash: echo 'Job C'
