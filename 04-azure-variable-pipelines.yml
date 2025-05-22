@@ -5,7 +5,8 @@ variables:
   agent: ubuntu-latest
 
 pool:
-  vmImage: $(agent)
+  # vmImage: $(agent)
+  name: pool1
 
 steps:
   - script: |
