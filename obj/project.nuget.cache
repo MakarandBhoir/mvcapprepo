@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "25JUxrbYzABt7P3jWQtdsmCeyIj3TjvSKihliRCuVH+mnuyKptwbITPOlcrysllNO6AlYpT7i4BC51A9uFr8AQ==",
+  "dgSpecHash": "LnkuuSzuvFojIGosIEsKH32Q8M52FPv1EjSTJtiDZBKBoP8e7f333Y7nZhy8HYhwazhaPETQZ+AounodLLaY5Q==",
   "success": true,
   "projectFilePath": "D:\\Training\\Accenture\\DEPR\\AZ-400\\Batch06\\Workspace\\day02\\MvcApp\\MvcApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Makarand\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
   "logs": []
 }
