@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: AzureResourceManagerTemplateDeployment@3
+    inputs:
+      deploymentScope: 'Resource Group'
+      azureResourceManagerConnection: 'Visual Studio Enterprise Subscription (60431d30-bd97-4140-a06e-563a5df48d31)'
+      subscriptionId: '60431d30-bd97-4140-a06e-563a5df48d31'
+      action: 'Create Or Update Resource Group'
+      resourceGroupName: 'Az400-Labs'
+      location: 'Canada Central'
+      templateLocation: 'URL of the file'
+      csmFileLink: 'https://accenturestorage0943.blob.core.windows.net/tempates/02-storage-acc.json'
+      deploymentMode: 'Incremental'
